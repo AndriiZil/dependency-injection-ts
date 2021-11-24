@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node index.ts"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/AndriiZil/dependency-injection-ts/issues"
   },
-  "homepage": "https://github.com/AndriiZil/dependency-injection-ts#readme"
+  "homepage": "https://github.com/AndriiZil/dependency-injection-ts#readme",
+  "devDependencies": {
+    "ts-node": "^10.4.0"
+  }
 }
